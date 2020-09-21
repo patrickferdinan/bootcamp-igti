@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  text-align: center;
+}
+
+.cabecalho {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cabecalho input {
+  display: block;
+  
+  border: 0;
+  border-bottom: 1px solid #333;
+  width: 250px;
+  outline: none;
+}
+
+.cabecalho label {
+  color: grey;
+  margin-left: 40px;
+}
+
+input:hover {
+  outline-color: #00afa2;
+}
